@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Tic_Tac_Toe
 {
-    class Program
+    //Enumiration to distinguish the state of cell.
+    public enum State
     {
-        static void Main(string[] args)
-        {
-            
-        }
-        
+        Undecided,
+        O,
+        X
     }
 }

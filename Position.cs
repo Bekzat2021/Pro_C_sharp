@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Tic_Tac_Toe
 {
-    class Program
+    class Position
     {
-        static void Main(string[] args)
-        {
-            
-        }
-        
+        public State Row { get; set; }
+        public State Column { get; set; }
     }
 }
