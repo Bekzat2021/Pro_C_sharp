@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{86DD1BB8-A688-4F3B-BCEB-35A5544B3C9B}</ProjectGuid>
+    <ProjectGuid>{A66F84A4-51E3-489C-85F1-7E943A905030}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tic_Tac_Toe</RootNamespace>
-    <AssemblyName>Tic-Tac-Toe</AssemblyName>
+    <RootNamespace>Events</RootNamespace>
+    <AssemblyName>Events</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Board.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="Position.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Renderer.cs" />
-    <Compile Include="StateEnum.cs" />
-    <Compile Include="WinChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
